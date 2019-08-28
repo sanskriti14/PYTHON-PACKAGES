@@ -1,0 +1,27 @@
+Numpy VS SciPy
+
+Numpy:
+Numpy is written in C and use for mathematical or numeric calculation.
+It is faster than other Python Libraries
+Numpy is the most useful library for Data Science to perform basic calculations.
+Numpy contains nothing but array data type which performs the most basic operation like sorting, shaping, indexing, etc.
+
+SciPy:
+SciPy is built in top of the NumPy
+SciPy is a fully-featured version of Linear Algebra while Numpy contains only a few features.
+Most new Data Science features are available in Scipy rather than Numpy.
+
+
+Cubic Root Function:
+Cubic Root function finds the cube root of values.
+
+Syntax:
+      scipy.special.cbrt(x)
+
+PROGRAM:
+
+      from scipy.special import cbrt
+      cb = cbrt([27, 64])
+      print(cb)
+
+Output: array([3., 4.])
