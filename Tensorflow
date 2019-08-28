@@ -3,17 +3,16 @@ TensorFlow works like a computational library for writing new algorithms that in
 since neural networks can be easily expressed as computational graphs they can be implemented using TensorFlow as a series of 
 operations on Tensors. Plus, tensors are N-dimensional matrices which represent your data.
 
+
 PROGRAM:
 
-import tensorflow as tf
+      import tensorflow as tf
 
-x1 = tf.constant([1,2,3,4])
-x2 = tf.constant([5,6,7,8])
+      x1 = tf.constant([1,2,3,4])
+      x2 = tf.constant([5,6,7,8])
 
-result = tf.multiply(x1, x2)
+      result = tf.multiply(x1, x2)
 
-sess = tf.Session()
-
-print(sess.run(result))
-
-sess.close()
+      sess = tf.Session()
+      print(sess.run(result))
+      sess.close()
